@@ -15,3 +15,8 @@ def test_sumar():
 def test_restar():
     assert restar(10, 5) == 5
     assert restar(20, 10) == 10
+
+
+def test_multiplicar():
+    assert multiplicar(4, 5) == 20
+    assert multiplicar(3, 7) == 21
