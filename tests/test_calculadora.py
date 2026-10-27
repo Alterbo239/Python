@@ -20,3 +20,8 @@ def test_restar():
 def test_multiplicar():
     assert multiplicar(4, 5) == 20
     assert multiplicar(3, 7) == 21
+
+
+def test_dividir():
+    assert dividir(10, 2) == 5
+    assert dividir(15, 3) == 5
