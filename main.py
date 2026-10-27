@@ -1,4 +1,6 @@
-a = 10
-b = 5
+def sumar(a, b):
+    return a + b
 
-print(a + b)
+
+def restar(a, b):
+    return a - b
